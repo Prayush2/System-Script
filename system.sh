@@ -1,5 +1,5 @@
 #!/bin/bash
-# author: <Your Name>
+# author: <Prayush Sharma>
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Complete the following exercises using Bash commands.
@@ -10,15 +10,16 @@
 
 
 # Output the current username
-
+whoami
 
 # Output the date in MM-DD-YYYY format
-
+date +%d-%m-%Y
 
 # Output current users logged into the system
-
+who
 
 # Output uptime in pretty format
-
+uptime -p
 
 # Output summarized disk usage for all home directories on the system
+du -sh /home/*
